@@ -13,15 +13,13 @@ import DeltaCore
 @_exported import GPGXBridge
 @_exported import GPGXSwift
 
-extension GPGXGameInput: Input
-{
+extension GPGXGameInput: Input {
     public var type: InputType {
         return .game(.genesis)
     }
 }
 
-public struct GPGX: DeltaCoreProtocol
-{
+public struct GPGX: DeltaCoreProtocol {
     public static let core = GPGX()
     
     public var name: String { "Genesis Plus GX" }

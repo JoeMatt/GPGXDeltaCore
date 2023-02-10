@@ -6,11 +6,7 @@
 //  Copyright © 2021 Riley Testut. All rights reserved.
 //
 
-#if SWIFT_PACKAGE
 @import DeltaTypes;
-#else
-@import DeltaCore;
-#endif
 
 // Extensible Enums
 FOUNDATION_EXPORT GameType const GameTypeGenesis NS_SWIFT_NAME(genesis);
